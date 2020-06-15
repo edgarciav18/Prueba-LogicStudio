@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9e5f4a3822494ab0b4cf472c216814ca" Name="Diagram1">
+        <EntityTypeShape EntityType="BD_EDGVModel.factura" Width="1.5" PointX="3.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_EDGVModel.pago" Width="1.5" PointX="1.25" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BD_EDGVModel.detalle" Width="1.5" PointX="6.25" PointY="0.5" />
+        <AssociationConnector Association="BD_EDGVModel.FK_detalle_factura" />
+        <AssociationConnector Association="BD_EDGVModel.FK_pago_factura" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
